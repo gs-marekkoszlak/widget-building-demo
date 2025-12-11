@@ -26,9 +26,7 @@
         }
       ]
       },
-      "defaultConfig": {
-        "banner_title": "Annual MLab Summit"
-      },
+
       "containers": [
         "Full width"
       ],
