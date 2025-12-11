@@ -23,7 +23,15 @@
           "rules": {
             "required": true
           }
-        }
+        },
+        {
+          "name": "banner_subtitle",
+          "type": "text",
+          "label": "Subtitle",
+          "defaultValue": "Join us on the next meetup.",
+          "rules": {
+            "required": true
+          }
       ]
       },
       "defaultConfig": {
@@ -166,7 +174,7 @@
         "cta_text": "Learn More",
         "cta_url": "https://example.com",
         "button_width": 30,
-        "button_height": 50
+        "button_height": 50,
       },
       "containers": [
         "Full width"
