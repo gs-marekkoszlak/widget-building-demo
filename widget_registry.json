@@ -14,7 +14,8 @@
         "cacheStrategy": "no-cache"
       },
       "configuration": {
-        "properties": {
+        "properties": [
+          {
           "name": "banner_title",
           "type": "text",
           "label": "Title",
@@ -23,6 +24,7 @@
             "required": true
           }
         }
+      ]
       },
       "containers": [
         "Full width"
