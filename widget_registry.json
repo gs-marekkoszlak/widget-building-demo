@@ -59,23 +59,23 @@
           {
             "name": "banner_width",
             "type": "number",
-            "label": "Banner Width (%)",
-            "defaultValue": 100,
+            "label": "Banner Width (px, 0 = full width)",
+            "defaultValue": 0,
             "rules": {
               "required": true,
-              "min": 1,
-              "max": 100
+              "min": 0,
+              "max": 3000
             }
           },
           {
             "name": "banner_height",
             "type": "number",
-            "label": "Banner Height (%)",
-            "defaultValue": 100,
+            "label": "Banner Height (px)",
+            "defaultValue": 300,
             "rules": {
               "required": true,
-              "min": 1,
-              "max": 100
+              "min": 100,
+              "max": 1000
             }
           },
           {
@@ -92,6 +92,52 @@
             "type": "text",
             "label": "Subtitle",
             "defaultValue": "Don't miss out on this amazing opportunity!",
+            "rules": {
+              "required": true
+            }
+          },
+          {
+            "name": "gradient_color_start",
+            "type": "color",
+            "label": "Gradient Start Color",
+            "defaultValue": "#667eea",
+            "rules": {
+              "required": true
+            }
+          },
+          {
+            "name": "gradient_color_end",
+            "type": "color",
+            "label": "Gradient End Color",
+            "defaultValue": "#764ba2",
+            "rules": {
+              "required": true
+            }
+          },
+          {
+            "name": "content_align_horizontal",
+            "type": "select",
+            "label": "Horizontal Alignment",
+            "defaultValue": "left",
+            "options": [
+              { "label": "Left", "value": "left" },
+              { "label": "Center", "value": "center" },
+              { "label": "Right", "value": "right" }
+            ],
+            "rules": {
+              "required": true
+            }
+          },
+          {
+            "name": "content_align_vertical",
+            "type": "select",
+            "label": "Vertical Alignment",
+            "defaultValue": "center",
+            "options": [
+              { "label": "Top", "value": "flex-start" },
+              { "label": "Center", "value": "center" },
+              { "label": "Bottom", "value": "flex-end" }
+            ],
             "rules": {
               "required": true
             }
@@ -117,12 +163,12 @@
           {
             "name": "button_width",
             "type": "number",
-            "label": "Button Width (%)",
-            "defaultValue": 30,
+            "label": "Button Width (px, 0 = auto)",
+            "defaultValue": 0,
             "rules": {
               "required": true,
-              "min": 1,
-              "max": 100
+              "min": 0,
+              "max": 800
             }
           },
           {
@@ -139,13 +185,17 @@
         ]
       },
       "defaultConfig": {
-        "banner_width": 100,
-        "banner_height": 100,
-        "banner_title": "Special Offer",
-        "banner_subtitle": "Don't miss out on this amazing opportunity!",
-        "cta_text": "Learn More",
-        "cta_url": "https://example.com",
-        "button_width": 30,
+        "banner_width": 0,
+        "banner_height": 300,
+        "banner_title": "MLab Connect 2025",
+        "banner_subtitle": "Don't miss out on this amazing opportunity to connect with likeminded people!",
+        "gradient_color_start": "#667eea",
+        "gradient_color_end": "#764ba2",
+        "content_align_horizontal": "left",
+        "content_align_vertical": "center",
+        "cta_text": "Register Now",
+        "cta_url": "https://gainsight.com",
+        "button_width": 0,
         "button_height": 50
       },
       "containers": [
