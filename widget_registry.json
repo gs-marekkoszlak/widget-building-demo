@@ -40,6 +40,125 @@
         "shared": false,
         "movable": false
       }
+    },
+    {
+      "title": "Promo banner",
+      "description": "Generic promotional banner with configurable dimensions, title, subtitle, and call-to-action button",
+      "version": "1.0.0",
+      "category": "Banners",
+      "type": "promo_banner",
+      "imageName": "promo_banner",
+      "content": {
+        "endpoint": "./widgets/promo_banner/content.html",
+        "method": "GET",
+        "requiresAuthentication": false,
+        "cacheStrategy": "no-cache"
+      },
+      "configuration": {
+        "properties": [
+          {
+            "name": "banner_width",
+            "type": "number",
+            "label": "Banner Width (%)",
+            "defaultValue": 100,
+            "rules": {
+              "required": true,
+              "min": 1,
+              "max": 100
+            }
+          },
+          {
+            "name": "banner_height",
+            "type": "number",
+            "label": "Banner Height (%)",
+            "defaultValue": 100,
+            "rules": {
+              "required": true,
+              "min": 1,
+              "max": 100
+            }
+          },
+          {
+            "name": "banner_title",
+            "type": "text",
+            "label": "Title",
+            "defaultValue": "Special Offer",
+            "rules": {
+              "required": true
+            }
+          },
+          {
+            "name": "banner_subtitle",
+            "type": "textarea",
+            "label": "Subtitle",
+            "defaultValue": "Don't miss out on this amazing opportunity!",
+            "rules": {
+              "required": true
+            }
+          },
+          {
+            "name": "cta_text",
+            "type": "text",
+            "label": "Button Text",
+            "defaultValue": "Learn More",
+            "rules": {
+              "required": true
+            }
+          },
+          {
+            "name": "cta_url",
+            "type": "text",
+            "label": "Button URL",
+            "defaultValue": "https://example.com",
+            "rules": {
+              "required": true
+            }
+          },
+          {
+            "name": "button_width",
+            "type": "number",
+            "label": "Button Width (%)",
+            "defaultValue": 30,
+            "rules": {
+              "required": true,
+              "min": 1,
+              "max": 100
+            }
+          },
+          {
+            "name": "button_height",
+            "type": "number",
+            "label": "Button Height (px)",
+            "defaultValue": 50,
+            "rules": {
+              "required": true,
+              "min": 20,
+              "max": 200
+            }
+          }
+        ]
+      },
+      "defaultConfig": {
+        "banner_width": 100,
+        "banner_height": 100,
+        "banner_title": "Special Offer",
+        "banner_subtitle": "Don't miss out on this amazing opportunity!",
+        "cta_text": "Learn More",
+        "cta_url": "https://example.com",
+        "button_width": 30,
+        "button_height": 50
+      },
+      "containers": [
+        "Full width"
+      ],
+      "widgetsLibrary": true,
+      "settings": {
+        "configurable": true,
+        "editable": true,
+        "removable": true,
+        "shared": false,
+        "movable": false
+      }
     }
   ]
 }
