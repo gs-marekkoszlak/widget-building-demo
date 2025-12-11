@@ -14,16 +14,17 @@
         "cacheStrategy": "no-cache"
       },
       "configuration": {
-        "properties": {
-          "banner_title": {
-            "type": "text",
-            "label": "Title",
-            "defaultValue": "Annual MLab Summit",
-            "rules": {
-              "required": true
-            }
+        "properties": [
+          {
+          "name": "banner_title",
+          "type": "text",
+          "label": "Title",
+          "defaultValue": "Annual MLab Summit",
+          "rules": {
+            "required": true
           }
         }
+      ]
       },
       "defaultConfig": {
         "banner_title": "Annual MLab Summit"
@@ -54,8 +55,9 @@
         "cacheStrategy": "no-cache"
       },
       "configuration": {
-        "properties": {
-          "banner_width": {
+        "properties": [
+          {
+            "name": "banner_width",
             "type": "number",
             "label": "Banner Width (%)",
             "defaultValue": 100,
@@ -65,7 +67,8 @@
               "max": 100
             }
           },
-          "banner_height": {
+          {
+            "name": "banner_height",
             "type": "number",
             "label": "Banner Height (%)",
             "defaultValue": 100,
@@ -75,7 +78,8 @@
               "max": 100
             }
           },
-          "banner_title": {
+          {
+            "name": "banner_title",
             "type": "text",
             "label": "Title",
             "defaultValue": "Special Offer",
@@ -83,7 +87,8 @@
               "required": true
             }
           },
-          "banner_subtitle": {
+          {
+            "name": "banner_subtitle",
             "type": "text",
             "label": "Subtitle",
             "defaultValue": "Don't miss out on this amazing opportunity!",
@@ -91,7 +96,8 @@
               "required": true
             }
           },
-          "gradient_color_start": {
+          {
+            "name": "gradient_color_start",
             "type": "text",
             "label": "Gradient Start Color",
             "defaultValue": "#667eea",
@@ -99,7 +105,8 @@
               "required": true
             }
           },
-          "gradient_color_end": {
+          {
+            "name": "gradient_color_end",
             "type": "text",
             "label": "Gradient End Color",
             "defaultValue": "#764ba2",
@@ -107,7 +114,8 @@
               "required": true
             }
           },
-          "cta_text": {
+          {
+            "name": "cta_text",
             "type": "text",
             "label": "Button Text",
             "defaultValue": "Learn More",
@@ -115,7 +123,8 @@
               "required": true
             }
           },
-          "cta_url": {
+          {
+            "name": "cta_url",
             "type": "text",
             "label": "Button URL",
             "defaultValue": "https://example.com",
@@ -123,7 +132,8 @@
               "required": true
             }
           },
-          "button_width": {
+          {
+            "name": "button_width",
             "type": "number",
             "label": "Button Width (%)",
             "defaultValue": 30,
@@ -133,7 +143,8 @@
               "max": 100
             }
           },
-          "button_height": {
+          {
+            "name": "button_height",
             "type": "number",
             "label": "Button Height (px)",
             "defaultValue": 50,
@@ -143,7 +154,7 @@
               "max": 200
             }
           }
-        }
+        ]
       },
       "defaultConfig": {
         "banner_width": 100,
