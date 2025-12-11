@@ -98,7 +98,7 @@
           },
           {
             "name": "gradient_color_start",
-            "type": "text",
+            "type": "color",
             "label": "Gradient Start Color",
             "defaultValue": "#667eea",
             "rules": {
@@ -107,7 +107,7 @@
           },
           {
             "name": "gradient_color_end",
-            "type": "text",
+            "type": "color",
             "label": "Gradient End Color",
             "defaultValue": "#764ba2",
             "rules": {
