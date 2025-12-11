@@ -89,7 +89,7 @@
           },
           {
             "name": "banner_subtitle",
-            "type": "textarea",
+            "type": "text",
             "label": "Subtitle",
             "defaultValue": "Don't miss out on this amazing opportunity!",
             "rules": {
