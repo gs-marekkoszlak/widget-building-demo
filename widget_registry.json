@@ -1,0 +1,54 @@
+{
+  "widgets": [
+    {
+      "title": "Demo widget",
+      "description": "Demo widget for presentation purposes",
+      "version": "1.0.0",
+      "category": "Demo",
+      "type": "demo_widget",
+      "imageName": "demo_widget",
+      "content": {
+        "endpoint": "./widgets/demo_widget/content.html",
+        "method": "GET",
+        "requiresAuthentication": false,
+        "cacheStrategy": "no-cache"
+      },
+      "containers": [
+        "Full width"
+      ],
+      "widgetsLibrary": true,
+      "settings": {
+        "configurable": true,
+        "editable": true,
+        "removable": true,
+        "shared": false,
+        "movable": false
+      }
+    },
+    {
+      "title": "Hello World Widget",
+      "description": "A simple React widget displaying Hello World with custom styling",
+      "version": "1.0.0",
+      "category": "Demo",
+      "type": "react_hello_world",
+      "imageName": "react_hello_world",
+      "content": {
+        "endpoint": "./widgets/react_hello_world/content.html",
+        "method": "GET",
+        "requiresAuthentication": false,
+        "cacheStrategy": "no-cache"
+      },
+      "containers": [
+        "Full width"
+      ],
+      "widgetsLibrary": true,
+      "settings": {
+        "configurable": true,
+        "editable": true,
+        "removable": true,
+        "shared": false,
+        "movable": false
+      }
+    }
+  ]
+}
