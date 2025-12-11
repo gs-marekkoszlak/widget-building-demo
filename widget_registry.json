@@ -116,28 +116,18 @@
           },
           {
             "name": "content_align_horizontal",
-            "type": "select",
-            "label": "Horizontal Alignment",
+            "type": "text",
+            "label": "Horizontal Alignment (left, center, right)",
             "defaultValue": "left",
-            "options": [
-              { "label": "Left", "value": "left" },
-              { "label": "Center", "value": "center" },
-              { "label": "Right", "value": "right" }
-            ],
             "rules": {
               "required": true
             }
           },
           {
             "name": "content_align_vertical",
-            "type": "select",
-            "label": "Vertical Alignment",
+            "type": "text",
+            "label": "Vertical Alignment (flex-start, center, flex-end)",
             "defaultValue": "center",
-            "options": [
-              { "label": "Top", "value": "flex-start" },
-              { "label": "Center", "value": "center" },
-              { "label": "Bottom", "value": "flex-end" }
-            ],
             "rules": {
               "required": true
             }
