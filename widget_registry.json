@@ -42,12 +42,12 @@
       }
     },
     {
-      "title": "Promo banner",
+      "title": "Generic Banner",
       "description": "Generic promotional banner with configurable dimensions, title, subtitle, and call-to-action button",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "category": "Banners",
-      "type": "promo_banner",
-      "imageName": "promo_banner",
+      "type": "generic_banner",
+      "imageName": "generic_banner",
       "content": {
         "endpoint": "./widgets/promo_banner/content.html",
         "method": "GET",
