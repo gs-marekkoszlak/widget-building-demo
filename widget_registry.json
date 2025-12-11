@@ -18,6 +18,10 @@
           "name": "banner_title",
           "type": "text",
           "label": "Title",
+          "defaultValue": "Annual MLab Summit",
+          "rules": {
+            "required": true
+          }
         }
       },
       "containers": [
