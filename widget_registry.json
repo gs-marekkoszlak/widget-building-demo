@@ -13,6 +13,19 @@
         "requiresAuthentication": false,
         "cacheStrategy": "no-cache"
       },
+      "configuration": {
+        "properties": {
+          "title": {
+            "type": "text",
+            "label": "Title",
+            "defaultValue": "Annual MLab Summit"
+          }
+        },
+        "required": ["title"]
+      },
+      "defaultConfig": {
+        "title": "text"
+      },
       "containers": [
         "Full width"
       ],
