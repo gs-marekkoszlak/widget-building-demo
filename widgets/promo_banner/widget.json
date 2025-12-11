@@ -1,8 +1,0 @@
-{
-  "version": "1.0.0",
-  "title": "Promo banner",
-  "description": "Generic promotional banner with configurable dimensions, title, subtitle, and call-to-action button",
-  "category": "Banners",
-  "imageName": "promo_banner"
-}
-
