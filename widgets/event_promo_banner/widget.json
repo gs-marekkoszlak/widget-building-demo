@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "title": "Event promo banner",
+  "description": "Promotional banner for upcoming events with title, subtitle, date, and call-to-action button",
+  "category": "Banners",
+  "imageName": "event_promo_banner"
+}
