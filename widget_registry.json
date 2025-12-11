@@ -20,11 +20,7 @@
             "label": "Title",
             "defaultValue": "Annual MLab Summit"
           }
-        },
-        "required": ["title"]
-      },
-      "defaultConfig": {
-        "title": "text"
+        }
       },
       "containers": [
         "Full width"
